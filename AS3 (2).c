@@ -18,6 +18,7 @@ int p (int x){
 		z=z-1;
 	}
 	return b;
+	}
 int main(){
 	int x,y,e,r,v;
 	printf("please inter the number1:");

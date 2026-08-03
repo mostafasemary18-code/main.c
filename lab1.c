@@ -1,12 +1,11 @@
-// stanrd input output library
 #include <stdio.h>
-/*
-entry point of the program
-this is the main function
-return0
-*/
-
 int main()
 {
-    printf("Hello, World!\n");
+	int x,y,sum;
+	for (int y=1;y<=10;y=y+1){
+		printf("plasee inter number%d :",y,"\n");
+		scanf("%d",&x);
+		sum+=x;
+	    }
+		printf("%d\n",sum);
 }
